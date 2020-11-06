@@ -7,10 +7,67 @@
     <title>AdminTemplate</title>
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+    <header class="header__dark">
+        <h3 class="header__title">Admin Page</h3>
+        <div class="header__search">
+            <input class="search__input" placeholder="Search for..">
+            <button class="search__btn">
+                <i id="color__btn" class="fa fa-search"></i>
+            </button>
 
+        </div>
+    </header>
+
+    <main>
+        <div class="div__container">
+            <aside>
+                <nav class="main__nav">
+                    <ul class="nav__ul">
+                        <li>
+                            <h5 class="nav__li--h5">Core</h5>
+                        </li>
+                        <li><a class="nav__a--icon" href="index.html">Dashboard</a></li>
+                        <li>
+                            <h5 class="nav__li--h5">Interface</h5>
+                        </li>
+                        <li><a class="nav__a--icon" href="index.html">Layouts</a></li>
+                        <li><a class="nav__a--icon" href="index.html">Pages</a></li>
+                        <li>
+                            <h5 class="nav__li--h5">Addons</h5>
+                        </li>
+                        <li><a class="nav__a--icon" href="index.html">Charts</a></li>
+                        <li><a class="nav__a--icon" href="index.html">Tables</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+                <h1>Dashboard</h1>
+                <div class="main_breadcrumb">
+                    Dashboard
+                    <div class="main__card main__card--blue">
+                        <div class="card__top">Primary Card</div>
+                        <div class="card__bottom"></div>
+                    </div>
+                    <div class="main__card main__card--yellow">
+                        <div class="card__top">Warning Card</div>
+                        <div class="card__bottom"></div>
+                    </div>
+                    <div class="main__card main__card--green">
+                        <div class="card__top">Success Card</div>
+                        <div class="card__bottom"></div>
+                    </div>
+                    <div class="main__card main__card--red">
+                        <div class="card__top">Danger Card</div>
+                        <div class="card__bottom"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
