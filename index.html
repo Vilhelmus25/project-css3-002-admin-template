@@ -22,49 +22,68 @@
         </div>
     </header>
 
-    <main>
-        <div class="div__container">
+    <main class="main">
+        <div class="main__container">
             <aside>
                 <nav class="main__nav">
                     <ul class="nav__ul">
-                        <li>
-                            <h5 class="nav__li--h5">Core</h5>
+                        <li class="nav__li">
+                            <h5 class="nav__h5">Core</h5>
                         </li>
-                        <li><a class="nav__a--icon" href="index.html">Dashboard</a></li>
-                        <li>
-                            <h5 class="nav__li--h5">Interface</h5>
+                        <li class="nav__li">
+                            <i id="color__btn--dash" class="fa fa-tachometer"></i>
+                            <a class="nav__a--icondash" href="index.html">Dashboard</a>
                         </li>
-                        <li><a class="nav__a--icon" href="index.html">Layouts</a></li>
-                        <li><a class="nav__a--icon" href="index.html">Pages</a></li>
-                        <li>
-                            <h5 class="nav__li--h5">Addons</h5>
+                        <li class="nav__li">
+                            <h5 class="nav__h5">Interface</h5>
                         </li>
-                        <li><a class="nav__a--icon" href="index.html">Charts</a></li>
-                        <li><a class="nav__a--icon" href="index.html">Tables</a></li>
+                        <li class="nav__li">
+                            <i id="color__btn" class="fa fa-windows"></i>
+                            <a class="nav__a--icon" href="index.html">Layouts <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav__li">
+                            <i id="color__btn" class="fa fa-bookmark"></i>
+                            <a class="nav__a--icon" href="index.html">Pages<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav__li">
+                            <h5 class="nav__h5">Addons</h5>
+                        </li>
+                        <li class="nav__li">
+                            <i id="color__btn" class="fa fa-area-chart"></i>
+                            <a class="nav__a--icon" href="index.html">Charts</a>
+                        </li>
+                        <li class="nav__li">
+                            <i id="color__btn" class="fa fa-table"></i>
+                            <a class="nav__a--icon" href="index.html">Tables</a>
+                        </li>
                     </ul>
                 </nav>
             </aside>
             <section class="content">
-                <h1>Dashboard</h1>
-                <div class="main_breadcrumb">
+                <h1 class="content__h1">Dashboard</h1>
+                <div class="main__breadcrumb">
                     Dashboard
+                </div>
+                <div class="main__card">
                     <div class="main__card main__card--blue">
                         <div class="card__top">Primary Card</div>
-                        <div class="card__bottom"></div>
+                        <div class="card__bottom">View Details<i class="fa fa-angle-right"></i>
+                        </div>
                     </div>
                     <div class="main__card main__card--yellow">
                         <div class="card__top">Warning Card</div>
-                        <div class="card__bottom"></div>
+                        <div class="card__bottom">View Details <i class="fa fa-angle-right"></i></div>
                     </div>
                     <div class="main__card main__card--green">
                         <div class="card__top">Success Card</div>
-                        <div class="card__bottom"></div>
+                        <div class="card__bottom">View Details <i class="fa fa-angle-right"></i></div>
                     </div>
                     <div class="main__card main__card--red">
                         <div class="card__top">Danger Card</div>
-                        <div class="card__bottom"></div>
+                        <div class="card__bottom">View Details <i class="fa fa-angle-right"></i></div>
                     </div>
                 </div>
+
             </section>
         </div>
     </main>
